@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rufina:wght@700&display=swap');
+
+html, body, html * {
+	background-color: #DFDFDF;
+	font-family: Open-Sans, serif;
+}
+
+/*sub-header styles */
+
+.sub-header {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.sub-header h2 {
+	padding-top: 20px;
+}
+
+/* body stylings */
+
+.grid-row {
+	display: flex;
+	position: relative;
+	align-items: center;
+	margin: 4em 10em 4em 4em;
+}
+
+.grid-row img {
+	max-width: 700px;
+	height: auto;
+	margin-top: 80px;
+}
+
+.grid-row p {
+	text-align: left;
+	margin: 5em;
+}
+
+/*footer styling */
+
+.return-page {
+	clear: both;
+	position: absolute;
+	justify-content: center;
+}
+
+.return-page a {
+	padding-left: 90vh;
+}
+
+
+
+
